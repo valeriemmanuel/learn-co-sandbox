@@ -1,9 +1,7 @@
-def greeting
-  puts "Hello World"
-end
+    def stylish_chef
+      best_hairstyle = "Guy Fieri"
+      return "Martha Stewart"
+      "Guy Fieri"
+    end
+    
 
-greeting
-greeting
-greeting
-greeting
-greeting
