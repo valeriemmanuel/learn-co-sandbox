@@ -1,0 +1,2 @@
+describe Pug do
+end
