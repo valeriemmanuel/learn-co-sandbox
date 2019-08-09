@@ -1,4 +1,19 @@
 describe Pug do
+  context '.new_from_puppyspot' do
+    it 'instantiate a Pug based on a the puppyspot url'
+     pug = pug.new_from_puppyspot('https://www.puppyspot.com/puppies-for-sale/breed/pug')
+     
+     expect(pug).to to_an_instance_of(Pug)
+   end
+   
+   
+   
+   
+   
+   
+   
+   
+   
   context 'properties' do
     it 'has a breed' do
       pug = Pug.new
