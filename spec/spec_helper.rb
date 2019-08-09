@@ -1,0 +1,1 @@
+require_relative'../lib/Pug_class
