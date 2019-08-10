@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative "../lib/Pug_scaper"
+
+Scraper.new.pug_scrape

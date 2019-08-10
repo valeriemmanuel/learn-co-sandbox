@@ -13,7 +13,7 @@ class Pug
    @@all
  end
  
- #consturctor - 
+
  def self.new_from_puppyspot(url https://www.puppyspot.com/puppies-for-sale/breed/pug)
  end
  
