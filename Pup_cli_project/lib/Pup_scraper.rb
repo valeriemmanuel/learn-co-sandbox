@@ -3,7 +3,7 @@ require "nokogiri"
 require "pry"
 class Scraper
    
-  def pug_scrape
+  def pup_scrape
      doc = Nokogiri::HTML(open("https://www.nextdaypets.com/directory/dogs/sale/"))
 listings = doc.css(".well.listing")
 names = listings.css("h5").map(&:text)

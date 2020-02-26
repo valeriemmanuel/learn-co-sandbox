@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require '.lib/Pup_scraper.rb
+
+Pups::CLI.new.call
+
+require_relative "./lib/Pup_scaper"
+
+Scraper.new.pup_scrape
